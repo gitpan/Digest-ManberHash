@@ -1,10 +1,10 @@
 #!/usr/bin/perl
 
-sub BEGIN { push @INC,"./blib/arch/auto/Digest/ManberHashes","./blib/lib"; };
-use Digest::ManberHashes;
+sub BEGIN { push @INC,"./blib/arch/auto/Digest/ManberHash","./blib/lib"; };
+use Digest::ManberHash;
 
 
-$a=Digest::ManberHashes->new();
+$a=Digest::ManberHash->new();
 while (@ARGV)
 {
   $fn=shift;

@@ -1,4 +1,4 @@
-package Digest::ManberHashes;
+package Digest::ManberHash;
 
 =head1 NAME
 
@@ -70,7 +70,7 @@ our @EXPORT = qw(
     new
     Compare
     );
-our $VERSION = '0.6';
+our $VERSION = '0.7';
 
 
 sub new
@@ -132,7 +132,7 @@ $self ne $file2->{"base"};
   1/(1.0+$a);
 }
 
-bootstrap Digest::ManberHashes $VERSION;
+bootstrap Digest::ManberHash $VERSION;
 
 # Preloaded methods go here.
 

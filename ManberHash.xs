@@ -23,7 +23,7 @@ modulo;
 
 
 
-MODULE = Digest::ManberHashes         PACKAGE = Digest::ManberHashes
+MODULE = Digest::ManberHash         PACKAGE = Digest::ManberHash
 
 
 SV*
